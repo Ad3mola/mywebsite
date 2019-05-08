@@ -1,0 +1,111 @@
+
+body{
+    font-family: sans-serif;
+    background-color: #999;
+    margin: 0 auto;
+}
+header{
+    height:80px;
+    background: #111;
+}
+header h1{
+    width: 80%;
+    text-align:center;
+    font-size: 2em;
+    color: tomato;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+.body{
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+    font-weight: bold;
+}
+header span{
+    color: #999;
+}
+
+.sidepic{
+    display: block;
+    margin: 20px auto;
+    height: 350px;
+    width: 300px;
+    
+}
+.button{
+    display:block;
+    width: 150px;
+    padding: 8px;
+    text-align: center;
+    background: black;
+    color: white;
+    margin:10px 0 0 0;
+    border: 1px solid tomato;
+}
+.body a{
+    text-decoration: none;
+    color: white;
+}
+ a .button:hover{
+    color: grey;
+}
+@media only screen and (min-width: 769px){
+*{
+    overflow: hidden;
+    font-family: sans-serif;
+}
+body{
+    background-color: #999;
+    margin: 0 auto;
+}
+header{
+    height:120px;
+    background: #111;
+}
+header h1{
+    width: 80%;
+    text-align:center;
+    font-size: 5em;
+    color: tomato;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+.body{
+    width: 40%;
+    margin: 100px 0 0 100px;
+    padding: 20px;
+    float:left;
+    font-weight: bold;
+}
+header span{
+    color: #999;
+}
+
+.sidepic{
+    float:right;
+    padding:0;
+    margin: 0;
+    height: 550px;
+    width: 500px;
+}
+.button{
+    display:block;
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    background: black;
+    color: white;
+    clear: both;
+    float:left;
+    margin:10px 0 0 0;
+    border: 1px solid tomato;
+}
+.body a{
+    text-decoration: none;
+    color: white;
+}
+ a .button:hover{
+    color: grey;
+}
+}
