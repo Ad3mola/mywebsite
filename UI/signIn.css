@@ -54,12 +54,11 @@ input[type="submit"] {
 }
 nav{
     margin:0 20px 70px 0;
+    background-color: tomato;
 }
 nav ul{
     display: inline;
-    float: right;
     font-weight: bold;
-    background-color: tomato;
     margin: 0;
     width: 100%;
 }
