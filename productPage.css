@@ -60,16 +60,20 @@ nav ul li a:hover{
     header span{
         color: #999;
     }
-    nav ul li{
+    nav{
+        margin: 0;
+    }
+    nav ul{
         display: inline;
         float: right;
+        width: 100%;
         font-weight: bold;
-        margin-right: 10px;
-    
+        background-color: tomato;
+        margin: 0;
     }
     nav a{
         text-decoration: none;
-        color: #000;   
+        color: white;   
     }
     nav ul li a:hover{
         color:#222;
