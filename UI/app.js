@@ -4,6 +4,7 @@ function login(){
     if(user == "Ademola" && pass == "dr123"){
         alert("Logged In");
         locate = "productPage.html"
+        document.querySelector(".store").textContent = user;
         return false;
     } else {
         alert("Wrong user");
