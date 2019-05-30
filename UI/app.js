@@ -1,20 +1,20 @@
+
 function login(){
     var user = document.getElementById("username").value;
     var pass = document.getElementById("password").value;
-    if(user == "Ademola" && pass == "dr123"){
-        alert("Logged In");
-        locate = "productPage.html"
-        document.querySelector(".store").textContent = user;
-        return false;
-    } else {
-        alert("Wrong user");
-        return false;
+    var index = 0;
+    var usernames = ["Ademola", "Tunde", "Biodun"];
+    var password = ["user1", "user2", "user3"];
+    for(var i = 0; i < usernames.length ; i++ ){
+        if((user == usernames[i]) && (pass == password[i])){
+            window.location = "productPage.html";
+            index = i;
+    } else{
+        document.querySelector("p").textContent = "invalid login";
+        var user = document.getElementById("username").value = "";
+        var pass = document.getElementById("password").value = "";
+        var user = document.getElementById("username").focus();
     }
-}
-
-
-
-document.getElementById("form").addEventListener("submit", function(e){
-    e.preventDefault();
-    login();
-})
+    }
+        }
+    var click = document.getElementById("submit").addEventListener("click", login);
