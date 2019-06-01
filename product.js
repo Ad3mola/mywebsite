@@ -15,11 +15,8 @@ window.onload = function(){
  function loadProducts(){
     images.forEach(function(image){
         var img = document.createElement('img');
-        var desc = document.createElement('figcaption');
-        desc.caption = image.productName;
         img.src = image.image;
         document.querySelector(".view").appendChild(img);
-        document.querySelector("img").appendChild(desc);
     });   
  };
 
