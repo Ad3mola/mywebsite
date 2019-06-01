@@ -53,31 +53,21 @@ input[type="submit"] {
     color: #999;
 }
 nav{
-    margin:0 0 70px 0;
-    text-align: right;
-    background-color: tomato;
-    font-size: 0.9em;
+    margin:0 20px 70px 0;
 }
 nav ul li{
-    display: inline-block;
-    font-weight: bold;
-    padding: 5px;
-    margin-right:
-}
-nav ul{
     display: inline;
+    float: right;
     font-weight: bold;
-    margin: 0;
+    margin-right: 10px;
+
 }
 nav a{
     text-decoration: none;
-    color: white; 
-    padding: 1px; 
-    margin-bottom: 5px;
+    color: #999;   
 }
 nav ul li a:hover{
-    color: #000;
-    padding-bottom: 1px;
+    color:#777;
 }
 
 
@@ -108,7 +98,7 @@ header span{
 form{
     width: 25%;
     padding: 20px;
-    margin: 20px auto;
+    margin: 0 auto;
 }
 fieldset{
     background: transparent;
@@ -137,20 +127,16 @@ input[type="submit"] {
     background-color: rgba(9,9,9,0.9);
     color: #999;
 }
-nav{
-    margin: 0;
-}
-nav ul{
+nav ul li{
     display: inline;
     float: right;
-    width: 100%;
     font-weight: bold;
-    background-color: tomato;
-    margin: 0;
+    margin-right: 10px;
+
 }
 nav a{
     text-decoration: none;
-    color: white;   
+    color: #999;   
 }
 nav ul li a:hover{
     color:#777;
