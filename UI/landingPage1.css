@@ -85,7 +85,6 @@ figcaption{
 }
 @media only screen and (min-width: 769px){
     *{
-        overflow: hidden;
         font-family: sans-serif;
     }
     body{
@@ -131,7 +130,7 @@ figcaption{
         border-bottom: 2px solid white;
     }
     .images{
-        width: 95%;
+        width: 100%;
         margin: 0 auto;
 
     }
