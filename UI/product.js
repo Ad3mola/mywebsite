@@ -2,8 +2,8 @@ window.onload = function(){
     let name = localStorage.getItem('user');
     let store = document.querySelector(".store");
     store.textContent = "  Hello,  " + name;
-    loadProducts();
 }
+document.querySelector(".submit").addEventListener("click", loadProducts);
  var images = [{image  : "gallery/makeup1.webp", productName : "product1", price : "$200", description : "lorem ipsum dolor"},
                 {image : "gallery/makeup2.webp", productName : "product1", price : "$200", description : "lorem ipsum dolor"},
                 {image : "gallery/makeup3.webp", productName : "product1", price : "$200", description : "lorem ipsum dolor"},
@@ -18,6 +18,7 @@ window.onload = function(){
         img.src = image.image;
         document.querySelector(".view").appendChild(img);
     });   
+    document.querySelector(".submit").style.display = 'none';
  };
 
  /*   const view = document.querySelector(".view");
