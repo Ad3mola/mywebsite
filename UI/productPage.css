@@ -57,6 +57,19 @@ img{
     width: 185px;
     height: 190px;
 }
+.submit{
+    padding: 10px;
+    margin-top: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    background-color: tomato;
+}
+ a .submit:hover{
+    font-size: 0.9em;
+    font-weight: bold;
+}
 @media only screen and (min-width: 769px){
     *{
         overflow: hidden;
