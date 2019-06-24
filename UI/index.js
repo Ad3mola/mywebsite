@@ -1,7 +1,11 @@
 const psql = require('psql');
 const express = require('express');
+const session = require('express-session');
 const bodyParser = require('body-parser');
- 
+const path = require('path');
+const psql = psql();
+const session = session();
+const path = path();
 const app = express();
 app.use(bodyParser.json());
 
