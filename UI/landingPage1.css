@@ -130,11 +130,12 @@ figcaption{
         border-bottom: 2px solid white;
     }
     .images{
-        width: 87%;
+        width: 100%;
         margin: 0 auto;
 
     }
     .images figure{
+        margin-left: 90px;
         float: left;
     }
     figcaption{
